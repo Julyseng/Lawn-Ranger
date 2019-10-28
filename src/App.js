@@ -17,6 +17,7 @@ function App() {
           <li>Section Tidy</li>
           <li>Grass planting</li>
           <li>House cleaning</li>
+          <li>Flower Planting</li>
         </ul>
       </header>
     </div>
