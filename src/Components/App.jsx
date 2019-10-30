@@ -13,15 +13,14 @@ class App extends Component {
       <Router>
         <div>
           <h2>Lawn Ranger</h2>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <ul className="navbar-nav mr-auto">
+
+            <ul>
               <li><Link to={'/'} className="nav-link"> Home </Link></li>
               <li><Link to={'/about'} className="nav-link">About</Link></li>
               <li><Link to={'/services'} className="nav-link">Services</Link></li>
               <li><Link to={'/gallery'} className="nav-link">Gallery</Link></li>
               <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
             </ul>
-          </nav>
 
           <Switch>
             <Route exact path='/' component={Home} />
