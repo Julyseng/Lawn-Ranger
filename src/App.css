@@ -4,14 +4,12 @@
 }
 
 ul {
-  display: flex;
   flex-direction: row;
   list-style: none;
   overflow: hidden;
   display: flex;
   justify-content: center;
   text-decoration: none;
-
 }
 
 li {
@@ -19,4 +17,26 @@ li {
   padding: 20px 25px;
 }
 
+.nav-link {
+  background-color: indianred;
+}
 
+body {
+  background-image: url("./grass.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo-img {
+  height: 150px;
+    margin-top: -11px;
+}
+
+.Navigations {
+  background-color: rgb(95, 155, 146);
+  margin: 50px;
+  
+}

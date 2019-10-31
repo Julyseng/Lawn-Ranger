@@ -12,12 +12,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <img className='logo' src='./logo-img.png' alt='logo' />
+        <div className='Navigations'>
             <ul>
               <li><Link to={'/'} className="nav-link"> Home </Link></li>
               <li><Link to={'/about'} className="nav-link">About</Link></li>
               <li><Link to={'/services'} className="nav-link">Services</Link></li>
+          <img className='logo' src='./logo-img.png' alt='logo' />
               <li><Link to={'/pricing'} className="nav-link">Pricing</Link></li>
               <li><Link to={'/gallery'} className="nav-link">Gallery</Link></li>
               <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
