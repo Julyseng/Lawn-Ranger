@@ -6,6 +6,7 @@ import Home from './Home'
 import Services from './Services'
 import Gallery from './Gallery'
 import Pricing from './Pricing'
+import Footer from './Footer'
 import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom'
 
 class App extends Component {
@@ -32,6 +33,8 @@ class App extends Component {
             <Route path='/services' component={Services} />
           </Switch>
         </div>
+
+        <Footer />
       </Router>
     );
   }

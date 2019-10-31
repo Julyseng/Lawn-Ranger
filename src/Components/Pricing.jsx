@@ -6,6 +6,8 @@ class Pricing extends Component {
 
             <div>
                 <h2>Pricing</h2>
+
+                
             </div>
 
         )
