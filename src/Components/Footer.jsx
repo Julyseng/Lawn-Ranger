@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <React.Fragment>
 
-                    <div className='footer-section'>
+                    <div id='footer-section'>
                         <h2>Footer</h2>
                         <p>Lawn ranger </p>
                         <p> copyright 2019</p>
